@@ -5,13 +5,18 @@ using namespace std;
 
 int main()
 {
+    int x, y;
+    cout<<"x=";
+    cin>>x;
+    cout<<"y=";
+    cin>>y;
     srand(time(0)); //seed random number generator
-    int num = rand() % 100 + 1; // random number between 1 and 100
+    int num = rand() % y + x; 
     cout << "Guess My Number Game\n\n";
 
     int guess = 0;
     while (guess != num) {
-        cout << "Enter a guess between 1 and 100 : ";
+        cout << "Enter a guess between "<<x<<" and "<<y<<":\n\n";
         cin >> guess;
 
         if (guess > num) {
