@@ -3,7 +3,7 @@
 using namespace std;
 int main ()
 {
-    int Rock=0, Paper=1, Scissors=2, x;
+    int Rock=1, Paper=2, Scissors=3, x;
     cout<<"Rock=0, Paper=1, Scissors=2. What is your choice?(num.)"<<endl;
     cout<<"x=";
     cin>>x;
