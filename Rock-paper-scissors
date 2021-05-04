@@ -8,7 +8,7 @@ int main ()
     cout<<"x=";
     cin>>x;
      srand (time(0));
-    int CompChoice = rand() % 3 + 1, CompSign;
+    int CompChoice = rand() % 3 + 1;
 
 {
     if (CompChoice==1 && x==1)
